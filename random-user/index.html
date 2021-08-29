@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Random User</title>
+		<style>
+			body {
+				background-color: cadetblue;
+			}
+			.profile {
+				background: white;
+				color: black;
+				max-width: 350px;
+				margin: auto;
+				height: 385px;
+				border-radius: 20px;
+				margin-top: 20px;
+			}
+			* {
+				box-sizing: border-box;
+				margin: 0px;
+				padding: 0px;
+				list-style: none;
+				text-decoration: none;
+			}
+			.box-item {
+				width: 100%;
+				margin: 0 auto;
+			}
+			.box-item img {
+				padding: 10px 0;
+				border-radius: 50%;
+				display: block;
+				margin: auto;
+			}
+			.box-item ul > li {
+				border-bottom: 1px solid #ddd;
+				width: 80%;
+				margin: 0 auto;
+				padding: 10px 0;
+				text-align: center;
+			}
+			.box-item ul > li:last-child {
+				border: none;
+			}
+			.gender {
+				text-transform: capitalize;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="profile">
+			<div id="profile-container"></div>
+		</div>
+
+		<script src="js/app.js"></script>
+	</body>
+</html>
